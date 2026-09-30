@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0,0,1500,1300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cge="http://www.cim.com" >
+<defs>
+<style type="text/css"><![CDATA[
+.kv0{stroke:rgb(0,0,0);fill:none}
+.kv10kV{stroke:rgb(0,170,0);fill:none}
+.kv110kV{stroke:rgb(255,69,94);fill:none}
+.kv20kV{stroke:rgb(226,171,5);fill:none}
+.kv220kV{stroke:rgb(128,0,128);fill:none}
+.kv330kV{stroke:rgb(30,146,255);fill:none}
+.kv35kV{stroke:rgb(255,255,0);fill:none}
+.kv380V{stroke:rgb(170,255,255);fill:none}
+.kv3kV{stroke:rgb(255,170,255);fill:none}
+.kv66kV{stroke:rgb(184,167,232);fill:none}
+.kv6kV{stroke:rgb(154,205,255);fill:none}
+.kv750kV{stroke:rgb(180,110,97);fill:none}
+.kv-1{stroke:rgb(93,92,88);fill:none}
+]]></style>
+<symbol id="terminal" preserveAspectRatio="xMidYMid meet">
+ <circle cx="0" cy="0" r="1" stroke="yellow" fill="yellow" stroke-width="1"/>
+</symbol>
+</defs>
+<g id="Head_Layer">
+ <rect x="0" y="0" height="1292" width="2764" fill="rgb(0,0,0)" FacName="城市.变电站" InitShowingPlane="0," />
+</g>
+<g id="MeasurementValue_Layer">
+ <g id="33000107">
+ <text x="102" y="1254" font-size="21" font-width="21" font-height="21" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(0,255,127)" writing-mode="lr" Plane="0" AFMask="39039" xml:space="preserve">-00.00</text>
+  <metadata>
+   <cge:Meas_Ref ObjectID="123456789012345006:Q" ObjectName="城市.变电站\城市.变电站/10kV\LD_城市.变电站/10kV.199变十九:Q" Plane="0" AFMask="39039" />
+  </metadata>
+ </g>
+ <g id="33000108">
+ <text x="105" y="1114" font-size="20" font-width="20" font-height="20" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(255,255,254)" writing-mode="tb" Plane="0" AFMask="39039" xml:space="preserve">ssss</text>
+  <metadata>
+   <cge:Meas_Ref ObjectID="123456789012345006:other" ObjectName="城市.变电站\城市.变电站/10kV\LD_城市.变电站/10kV.199变十九:other" Plane="0" AFMask="39039" />
+  </metadata>
+ </g>
+ <g id="33000109">
+ <text x="102" y="1274" font-size="21" font-width="21" font-height="21" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(255,255,0)" writing-mode="lr" Plane="0" AFMask="39039" xml:space="preserve">-000</text>
+  <metadata>
+   <cge:Meas_Ref ObjectID="123456789012345006:I_A" ObjectName="城市.变电站\城市.变电站/10kV\LD_城市.变电站/10kV.199变十九:I_A" Plane="0" AFMask="39039" />
+  </metadata>
+ </g>
+</g>
+<g id="Text_Layer">
+ <text x="383" y="650" font-size="26" font-width="26" font-height="26" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(255,255,254)" writing-mode="lr" Plane="0" AFMask="39039" xml:space="preserve">1号主变</text>
+</g>
+</svg>
