@@ -94,6 +94,7 @@ Var
   HeadLayer: TQXMLNode;
   TextLayer: TQXMLNode;
   MeasLayer: TQXMLNode;
+  OtherLayer: TQXMLNode;
   MeasItem, TxtNode: TQXMLNode;
   Attr: TQXMLAttr;
   DeviceName: String;
@@ -121,6 +122,13 @@ Begin
         Attr := svg[0].Attrs.ItemByName('viewBox');
         If Assigned(Attr) Then Attr.Value := Format('0 0 %s %s', [width, height])
         Else svg[0].Attrs.Add('viewBox', Format('0 0 %s %s', [width, height]));
+      End;
+    End;
+    // --- Step 2.5: 删除 Other_Layer 下的 img 和 a 节点 ---
+    OtherLayer := FindNodeByAttr(svg[0], 'g', 'id', 'Other_Layer');
+    If Assigned(OtherLayer) Then Begin
+      For I := OtherLayer.Count - 1 Downto 0 Do Begin
+        If (OtherLayer.Items[I].Name = 'image') Or (OtherLayer.Items[I].Name = 'a') Then OtherLayer.Delete(I);
       End;
     End;
     // --- Step 3: 过滤 Text_Layer，仅保留包含"变"或"运维"的行 ---
