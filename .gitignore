@@ -1,0 +1,32 @@
+# Delphi 编译产物与中间二进制文件
+*.dcu
+*.exe
+*.dll
+*.bpl
+*.bpi
+*.dcp
+*.so
+*.apk
+*.o
+*.obj
+
+# Delphi 历史备份与恢复目录
+__history/
+__recovery/
+
+# 用户个性化设置与缓存（避免污染仓库）
+*.identcache
+*.stat
+*.local
+*.tvsconfig
+*.projusers
+
+# 调试与符号文件
+*.dres
+*.rsm
+*.map
+*.tds
+
+# 临时编译日志与锁文件
+*.~*
+*.dsk
